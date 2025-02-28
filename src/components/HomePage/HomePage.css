@@ -1,0 +1,39 @@
+/* src/components/HomePage/HomePage.css */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin: 20px 0;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option-button:hover {
+    background-color: #357ab8;
+  }
+  
+  .commitment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .commitment-list li {
+    margin: 10px 0;
+  }
+  
