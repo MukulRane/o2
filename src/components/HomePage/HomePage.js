@@ -61,21 +61,11 @@ const HomePage = () => {
       <nav className="py-4 px-8 flex justify-between items-center">
         <img src={logo} alt="O2 Technologies Logo" className="h-12" />
         <div className="space-x-4 text-[1.1rem]">
-          <a href="#" className="hover:text-gray-300">
-            Services
-          </a>
-          <a href="#" className="hover:text-gray-300">
-            Industries
-          </a>
-          <a href="#" className="hover:text-gray-300">
-            Insights
-          </a>
-          <a href="#" className="hover:text-gray-300">
-            Careers
-          </a>
-          <a href="#" className="hover:text-gray-300">
-            Contact Us
-          </a>
+          <span className="hover:text-gray-300">Services</span>
+          <span className="hover:text-gray-300">Industries</span>
+          <span className="hover:text-gray-300">Insights</span>
+          <span className="hover:text-gray-300">Careers</span>
+          <span className="hover:text-gray-300">Contact Us</span>
         </div>
         <div>
           <button
